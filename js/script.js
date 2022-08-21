@@ -16,7 +16,7 @@ if (!score){
 }else if(score < 0){
     score = 0
     scoreEl.style.color = "red"
-    warningEl.innerText = "Please retry again ! if you know how it works  try to know more about multiplication table !"
+    warningEl.innerText = `Please try again !`
     warningEl.style.color = "red"
     warningEl.style.fontWeight = "bold"
 }
